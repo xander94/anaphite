@@ -74,6 +74,8 @@ img {
     max-width: 95%;
 }
 
+#top .avia-content-slider, #top .avia-content-slider-inner, #top .avia-content-slider-inner .slide-entry-wrap { -webkit-perspective: none !important; }
+
 @-webkit-keyframes colorize {
     0% {
         -webkit-filter: grayscale(100%);
