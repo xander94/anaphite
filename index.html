@@ -11,11 +11,60 @@
         <!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Josefin+Sans"/>-->
         <link rel="shortcut icon" type="image/png" href="anaphitefavicon.png?"/>
         <!--<link rel="shortcut icon" type="image/png" href="http://eg.com/favicon.png"/>-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="keywords" content="design, iOS, javascript, app, swift, objective-c, reciepts, accounts, Nujj" />
+<!--        These links are to size the window-->
+        <link rel='stylesheet' media='screen and (max-width: 700px)' href='css/narrow.css' />
+        <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/medium.css' />
+        <link rel='stylesheet' media='screen and (min-width: 901px)' href='css/wide.css' />
+        
+        <script src="modernizr.custom.js" ></script>
+        <script src="dist/js/smooth-scroll.js"></script>
+        <script src="Hover.js" ></script>
+        
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
     </head>
-    <div class = "topLeft">
+    <!--<div class = "topLeft">
              <h3>Anaphite Technologies</h3> 
-        </div>
+        </div>-->
     <body>
+        <header>
+  		   <nav>
+               <ul>
+                   <li>
+                       <a id="homeButton"><a href="http://www.anaphite.com/" class= "pull-left"><img  src="anaphitelogoblack.png" id="logoNav" alt="Home"  style="float: left; width:32px;height:32px;"><a id="anaText">Anaphite Technologies</a></a></a>
+                   </li>
+               </ul>
+    		   <!--<a class="textNav" href="http://www.nujjltd.com/#OurProducts" style="text-decoration:none">Our Products</a>
+    		   <a class="textNav" href="http://www.nujjltd.com/#OurPeople" style="text-decoration:none">Our People</a>
+    		    <a class="textNav">Our Principles</a>
+    		    <a class="textNav">Contact Us</a>-->
+    	   </nav>
+        </header>
         <div class="jumbotron">
             <div class="container">
                 <h1>Anaphite</h1>
