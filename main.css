@@ -28,10 +28,22 @@ ul {
     padding: inherit;
     float: left;
 }
+nav{
+    margin-top: 0px;
+}
+/*
+.image_off, #home:hover .image_on{
+   display:none
+}*/
+/*
+.image_on, #home:hover .image_off{
+   display:block
+}
+*/
 #anaText{
     padding-left: 5px;
     margin-left: 5px;
-    padding-top: 5px;
+    padding-top: 6px;
     padding-bottom: 5px;
     vertical-align: bottom;
     float: left;
@@ -39,6 +51,17 @@ ul {
     color: black;
     text-decoration: none;
 }
+/*#anaText:hover{
+    padding-left: 5px;
+    margin-left: 5px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    vertical-align: bottom;
+    float: left;
+    font-size: 23px;
+    color: dimgrey;
+    text-decoration: none;
+}*/
 #logoNav{
     padding-top: 0px;
     margin-top: 0px;
@@ -49,9 +72,6 @@ ul {
 li {
     display:inline;
     float: left;
-}
-ul a:hover {
-    color: #333;
 }
 .topLeft{
     text-align: left;
