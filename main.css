@@ -133,7 +133,8 @@ h2 {
     margin-top: 20px;
 }
 #footer{
-    position:absolute;
+    margin-top: 10px;
+    padding-top: 20px;
     bottom:0;
     width:100%;
     height:300px;   /* Height of the footer */
