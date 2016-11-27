@@ -62,15 +62,62 @@
     //$("#anaText").fontcolor("black");
         }
     </script>
+        
+    <script>
+        function contactOnHover1()
+        {
+            $("#mailLogo").attr('src', 'anaphiteMail.png');
+            
+    //$("#anaText").fontcolor("dimgrey");
+        }
+
+        function contactOffHover1()
+        {
+            $("#mailLogo").attr('src', 'anaphiteMailOff.png');
+    //$("#anaText").fontcolor("black");
+        }
+    </script>
+        <script>
+        function contactOnHover2()
+        {
+            $("#linkedInLogo").attr('src', 'anaphiteLinkedIn.png');
+            
+    //$("#anaText").fontcolor("dimgrey");
+        }
+
+        function contactOffHover2()
+        {
+            $("#linkedInLogo").attr('src', 'anaphiteLinkedOff.png');
+            
+    //$("#anaText").fontcolor("black");
+        }
+    </script>
+        <script>
+        function contactOnHover3()
+        {
+            $("#facebookLogo").attr('src', 'anaphiteFacebook.png');
+            
+    //$("#anaText").fontcolor("dimgrey");
+        }
+
+        function contactOffHover3()
+        {
+            $("#facebookLogo").attr('src', 'anaphiteFacebookOff.png');
+            
+    //$("#anaText").fontcolor("black");
+        }
+    </script>
+    <script type="text/javascript">
+        window.onload=function(){
+            document.getElementById('popup').style.display='block';
+        };
+    </script>
     </head>
-    <!--<div class = "topLeft">
-             <h3>Anaphite Technologies</h3> 
-        </div>-->
     <body>
         <header>
   		   <nav>
-               <ul>
-                   <li>
+               <ul id="navBarList">
+                   <li id="navListElement1">
                        <!--<a href="http://www.anaphite.com/" class= "pull-left"><img id="logoNav" src="anaphitelogoblack.png?" alt="Home"  style="float: left; width:32px;height:32px;"><a href="http://www.anaphite.com/" class= "pull-left" id="anaText" onmouseover="onHover();" onmouseout="offHover();"><font id="anaColor" color="black">Anaphite Technologies</font></a></a>-->
                        
                        <a href="http://www.anaphite.com/" class= "pull-left"><img id="logoNav" src="anaphitelogoblack.png" alt="Home"  style="float: left; width:32px;height:32px;" onmouseover="onHover();" onmouseout="offHover();"><a href="http://www.anaphite.com/" class= "pull-left" id="anaText" onmouseover="onHover();" onmouseout="offHover();"><font id="anaColor" color="black">Anaphite Technologies</font></a></a>
@@ -99,9 +146,35 @@
         </div>
         <div class="details">
         <h3>Coming soon</h3>
-        <!--<p>
-            State of the art nanomaterial. 
-            </p>-->
         </div>
+    <div id="footer">
+        <h2 id="contactWords">Contact us</h2>
+        <ul id="contactList">
+            <li id="mailClick"><a href="mailto:info@anaphite.com"><img id="mailLogo" src="anaphiteMailOff.png" alt="Mail" style="width:120px;height:120px;" onmouseover="contactOnHover1();" onmouseout="contactOffHover1();"></img></a>
+            </li>
+            <li id="linkedInClick"><a href="http://www.facebook.com/anaphite"><img id="linkedInLogo"  src="anaphiteLinkedOff.png" alt="LinkedIn" style="width:120px;height:120px;" onmouseover="contactOnHover2();" onmouseout="contactOffHover2();"></img></a>
+            </li>
+            <li id="facebookClick"><a href="http://www.facebook.com/anaphite"><img id="facebookLogo" src="anaphiteFacebookOff.png" alt="Facebook" style="width:120px;height:120px;" onmouseover="contactOnHover3();" onmouseout="contactOffHover3();"></img></a>
+            </li>
+        </ul>
+        <h3 id="copyright">&#169 Anaphite Technologies 2016</h3>
+        <!--<form id="contact_form" action="contact.php" method="POST" enctype="multipart/form-data">
+	        <div class="row">
+		         <label id= for="name">Your name:</label><br />
+		         <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	       </div>
+	       <div class="row">
+		        <label for="email">Your email:</label><br />
+                <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	       </div>
+	       <div class="row">
+		        <label for="message">Your message:</label><br/>
+		        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+            </div>
+	           <input id="submit_button" type="submit" value="Send"/>
+                <input type="reset" value="Clear"/>
+            <a href="#" onclick="document.getElementById('popup').style.display='none'; return false;">CLOSE</a>
+        </form>-->	
+    </div>        
     </body>
 </html>
