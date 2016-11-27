@@ -65,8 +65,11 @@
         
     <script>
         function contactOnHover1()
-        {
+        {   
+        if(window.screen.availWidth > 700){
+
             $("#mailLogo").attr('src', 'anaphiteMail.png');
+        }
             
     //$("#anaText").fontcolor("dimgrey");
         }
@@ -80,8 +83,9 @@
         <script>
         function contactOnHover2()
         {
+            if(window.screen.availWidth > 700){
             $("#linkedInLogo").attr('src', 'anaphiteLinkedIn.png');
-            
+            }
     //$("#anaText").fontcolor("dimgrey");
         }
 
@@ -95,8 +99,9 @@
         <script>
         function contactOnHover3()
         {
+            if(window.screen.availWidth > 700){
             $("#facebookLogo").attr('src', 'anaphiteFacebook.png');
-            
+            }
     //$("#anaText").fontcolor("dimgrey");
         }
 
