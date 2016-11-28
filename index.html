@@ -112,17 +112,10 @@
     //$("#anaText").fontcolor("black");
         }
     </script>
-    <script>
-        function mailPopUp(){
-            document.getElementById('contact_form').style.display='block';
-            document.getElementById('dimScreen').style.display='block';
+    <script type="text/javascript">
+        window.onload=function(){
+            document.getElementById('popup').style.display='block';
         };
-    </script>
-    <script>
-    function mailClose(){
-        document.getElementById('contact_form').style.display='none';
-        document.getElementById('dimScreen').style.display='none';
-    };
     </script>
     </head>
     <body>
@@ -163,7 +156,7 @@
     <div id="footer">
         <h2 id="contactWords">Contact us</h2>
         <ul id="contactList">
-            <li id="mailClick"><a href="#"><img onclick="mailPopUp()" id="mailLogo" src="anaphiteMailOff.png" alt="Mail" style="width:105px;height:105px;" onmouseover="contactOnHover1();" onmouseout="contactOffHover1();"></img></a>
+            <li id="mailClick"><a href="mailto:info@anaphite.com"><img id="mailLogo" src="anaphiteMailOff.png" alt="Mail" style="width:105px;height:105px;" onmouseover="contactOnHover1();" onmouseout="contactOffHover1();"></img></a>
             </li>
             <li id="linkedInClick"><a href="http://www.linkedin.com/company/anaphite-technologies"><img id="linkedInLogo"  src="anaphiteLinkedOff.png" alt="LinkedIn" style="width:105px;height:105px;" onmouseover="contactOnHover2();" onmouseout="contactOffHover2();"></img></a>
             </li>
@@ -171,76 +164,23 @@
             </li>
         </ul>
         <h3 id="copyright">&#169 Anaphite Technologies 2016</h3>
-
-<!--<form id="contact_form" class="form-horizontal" role="form" method="post" action="index.php">
-    <div id="dimScreen">
-        <div id="center">
-	<div class="row">
-		<label for="name" class="col-sm-2 control-label">Name</label>
-		<div class="col-sm-10">
-			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
-			<?php echo "<p class='text-danger'>$errName</p>";?>
-		</div>
-	</div>
-	<div class="row">
-		<label for="email" class="col-sm-2 control-label">Email</label>
-		<div class="col-sm-10">
-			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-			<?php echo "<p class='text-danger'>$errEmail</p>";?>
-		</div>
-	</div>
-	<div class="row">
-		<label for="message" class="col-sm-2 control-label">Message</label>
-		<div class="col-sm-10">
-			<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
-			<?php echo "<p class='text-danger'>$errMessage</p>";?>
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-		<div class="col-sm-10">
-			<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-			<?php echo "<p class='text-danger'>$errHuman</p>";?>
-		</div>
-	</div>
-	<div class="form-group">
-		<div class="col-sm-10 col-sm-offset-2">
-			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-            <input type="reset" value="Clear"/>
-            <a href="#" onclick="mailClose();contactOffHover1();" id="Close Button"><input type="button" value="Close"></input></a>
-		</div>
-	</div>
-	<div class="form-group">
-		<div class="col-sm-10 col-sm-offset-2">
-			<?php echo $result; ?>
-		</div>
-        </div>
-	</div>
-    </div>
-</form>-->
-
-
-        <form id="contact_form" action="contact.php" method="post">
-            <div id="dimScreen">
-                <div id="center">
+        <!--<form id="contact_form" action="contact.php" method="POST" enctype="multipart/form-data">
 	        <div class="row">
-		         <label class="labels" for="name">Your name:</label><br/><br/><br/>
-		         <input id="name" class="input" name="name" type="text" value="" size="50"/><br/>
+		         <label id= for="name">Your name:</label><br />
+		         <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
 	       </div>
 	       <div class="row">
-		        <label class="labels" for="email">Your email:</label><br/><br/><br/>
-                <input id="email" class="input" name="email" type="text" value="" size="50" /><br/>
+		        <label for="email">Your email:</label><br />
+                <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
 	       </div>
 	       <div class="row">
-		        <label class="labels" for="message">Your message:</label><br/><br/><br/>
-		        <textarea id="message" class="input" name="message" rows="7" cols="50"></textarea><br/>
+		        <label for="message">Your message:</label><br/>
+		        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
             </div>
-	           <input onclick="mailClose();contactOffHover1();" id="submit_button" type="submit" value="Send"/>
+	           <input id="submit_button" type="submit" value="Send"/>
                 <input type="reset" value="Clear"/>
-            <a href="#" onclick="mailClose();contactOffHover1();" id="Close Button"><input type="button" value="Close"></input></a>
-                </div>
-            </div>
-        </form>
+            <a href="#" onclick="document.getElementById('popup').style.display='none'; return false;">CLOSE</a>
+        </form>-->	
     </div>        
     </body>
 </html>
