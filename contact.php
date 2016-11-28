@@ -1,7 +1,7 @@
 <?php
-$field_name = $_POST['cf_name'];
-$field_email = $_POST['cf_email'];
-$field_message = $_POST['cf_message'];
+$field_name = $_POST['name'];
+$field_email = $_POST['email'];
+$field_message = $_POST['message'];
 
 $mail_to = '94xander@gmail.com';
 $subject = 'Message from a site visitor'.$field_name;
@@ -12,6 +12,17 @@ $body_message .= 'Message: '.$field_message;
 
 $headers = 'From: '.$field_email."\r\n";
 $headers .= 'Reply-To: '.$field_email."\r\n";
+
+//:via => :smtp,
+//      :via_options => {
+//        :address              => 'smtp.sendgrid.net',
+//        :port                 => '587',
+//        :enable_starttls_auto => true,
+//        :user_name            => ENV['SENDGRID_USERNAME'],
+//        :password             => ENV['SENDGRID_PASSWORD'],
+//        :authentication       => :plain,
+//        :domain               => 'heroku.com'
+//      }
 
 $mail_status = mail($mail_to, $subject, $body_message, $headers);
 
