@@ -120,36 +120,6 @@ body {
     color: white;
     text-decoration: none;
 }
-@media screen and (max-device-width: 480px){
-    #contactButtonText{
-    padding-right: 0px;
-    margin-right: 20px;
-    margin-top: 14px;
-    line-height: 25px;
-    padding-bottom: 0px;
-    vertical-align: bottom;
-    float: right;
-    font-size: 23px;
-    color: white;
-    text-decoration: none;
-    background:none;
-    border:none;
-    
-}
-#aboutButtonText{
-    padding-right: 0px;
-    margin-right: 15px;
-    margin-top: 14px;
-    line-height: 25px;
-    padding-bottom: 0px;
-    vertical-align: bottom;
-    float: right;
-    font-size: 23px;
-    color: white;
-    text-decoration: none;
-}
-}
-
 /*#anaText:hover{
     padding-left: 5px;
     margin-left: 5px;
@@ -186,7 +156,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 100px;
-    height: 100%;
+    height: auto;
 }
 
 .jumbotron h1{
@@ -275,6 +245,37 @@ img {
     margin: 1.3em auto;
     max-width: 95%;
 }
+
+@media screen and (max-device-width: 480px){
+    #contactButtonText{
+    padding-right: 0px;
+    margin-right: 20px;
+    margin-top: 14px;
+    line-height: 25px;
+    padding-bottom: 0px;
+    vertical-align: bottom;
+    float: right;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    background:none;
+    border:none;
+    
+}
+#aboutButtonText{
+    padding-right: 0px;
+    margin-right: 15px;
+    margin-top: 14px;
+    line-height: 25px;
+    padding-bottom: 0px;
+    vertical-align: bottom;
+    float: right;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+}
+}
+
 
 #top .avia-content-slider, #top .avia-content-slider-inner, #top .avia-content-slider-inner .slide-entry-wrap { -webkit-perspective: none !important; }
 
