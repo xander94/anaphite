@@ -313,6 +313,10 @@ img {
     padding: 0px;
     vertical-align: middle;
 }
+#contactWords{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
     
 }
 
