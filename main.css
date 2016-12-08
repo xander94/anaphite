@@ -288,10 +288,11 @@ img {
     #facebookLogo, #mailLogo, #linkedInLogo{
     width: 70px;
     height: 70px;
+    margin-bottom: 0px;
 }
     #footer{
     margin-top: 0px;
-    padding-top: 20px;
+    padding-top: 10px;
     bottom:0;
     width:100%;
     height:150px;   /* Height of the footer */
