@@ -247,7 +247,7 @@ img {
     max-width: 95%;
 }
 
-@media screen and (max-device-width: 600px){
+@media screen and (max-device-width: 700px){
     #contactButtonText{
     padding-right: 0px;
     margin-right: 20px;
@@ -286,8 +286,8 @@ img {
     height: auto;
 }
     #facebookLogo, #mailLogo, #linkedInLogo{
-    width: 70px;
-    height: 70px;
+    width: auto;
+    height: auto;
 }
 }
 
