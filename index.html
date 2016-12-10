@@ -202,6 +202,22 @@
             document.getElementById('popup').style.display='block';
         };
     </script>
+        <script>
+        function onHoverCross()
+        {
+            if(window.screen.availWidth > 700){
+            $("#closeButtonCross").attr('src', 'closeButtonDark.png');
+            }
+    //$("#anaText").fontcolor("dimgrey");
+        }
+
+        function offHoverCross()
+        {
+            $("#closeButtonCross").attr('src', 'closeButton.png');
+            
+    //$("#anaText").fontcolor("black");
+        }
+    </script>
     <!--<script>
         function contactScroll(){
         window.scrollTo(0,document.body.scrollHeight);
@@ -293,8 +309,9 @@
     </div>
 
 <div id="contact_form"> 
-    <button id="dimScreen" onclick="mailClose();contactOffHover1();" id="Close Button">
-                <div id="center">
+    <button id="dimScreen" onclick="mailClose();contactOffHover1();">
+        <a href="#" onclick="mailClose();contactOffHover1();"><img id="closeButtonCross" src="closeButton.png" alt="Mail" onmouseover="onHoverCross();" onmouseout="offHoverCross();"></img></a>
+        <div id="center">
                     <ul id="contactLine">
             <li id="mailClick"><a href="mailto:info@anaphite.com"><img id="mailLogo2" src="anaphiteMailOff.png" alt="Mail" style="width:105px;height:105px;" onmouseover="contactOnHover12();" onmouseout="contactOffHover12();"></img></a>
             </li>

@@ -73,6 +73,16 @@ body {
     font-size: 15px;
     text-decoration: none;
 }
+#closeButtonCross{
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    top: 0px;
+    position: absolute;
+    text-decoration: none;
+}
 /*
 .image_off, #home:hover .image_on{
    display:none
@@ -285,7 +295,7 @@ img {
     padding-top: 100px;
     height: auto;
 }
-    #facebookLogo, #mailLogo, #linkedInLogo{
+#facebookLogo, #mailLogo, #linkedInLogo{
     width: 70px;
     height: 70px;
     margin-bottom: 0px;
@@ -314,9 +324,20 @@ img {
     vertical-align: middle;
 }
 #contactWords{
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-    }
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#closeButtonCross{
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    top: 0px;
+    position: absolute;
+    text-decoration: none;
+    
+}
     
 }
 
