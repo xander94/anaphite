@@ -227,19 +227,66 @@
             }
             
         </script>
+        <script>
+        function fade(element) {
+    var op = 1;  // initial opacity  
+    var timer = setInterval(function () {
+        if (op <= 0.1){
+            clearInterval(timer);
+            element.style.display = 'none';
+        }
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op -= op * 0.1;
+    }, 50);
+          
+            
+}
+    </script>
+        <script>
+            function unfade(element) {
+    var op = 0.1;  // initial opacity
+    element.style.display = 'block';
+    var timer = setInterval(function () {
+        if (op >= 1){
+            clearInterval(timer);
+        }
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op += op * 0.1;
+    }, 10);       
+}
+        </script>
+        <script>
+            function onHoverSamAlex(element)
+        {
+            
+            $(element).attr('src', 'linkedInRound.png');
+    //$("#anaText").fontcolor("dimgrey");
+        }
+
+        function offHoverAlex()
+        {
+            $("#alexFade").attr('src', 'alexCircle.png');
+   
+        }
+            function offHoverSam()
+        {
+            $("#samFade").attr('src', 'samTeam.png');
+
+        }
+        </script>
+        <script>
+        </script>
     </head>
     <body>
         <header>
   		   <nav>
                <ul id="navBarList">
                    <li id="navListElement1">
-                       <!--<a href="http://www.anaphite.com/" class= "pull-left"><img id="logoNav" src="anaphitelogoblack.png?" alt="Home"  style="float: left; width:32px;height:32px;"><a href="http://www.anaphite.com/" class= "pull-left" id="anaText" onmouseover="onHover();" onmouseout="offHover();"><font id="anaColor" color="black">Anaphite Technologies</font></a></a>-->
                        
                        <a href="http://www.anaphite.com/" class= "pull-left"><img id="logoNav" src="anaphiteNavWhite.png" alt="Home"  style="float: left; width:24px;height:24px;" onmouseover="onHover();" onmouseout="offHover();"><a href="http://www.anaphite.com/" class= "pull-left" id="anaText" onmouseover="onHover();" onmouseout="offHover();"><font id="anaColor" color="white" size="4px">Anaphite Technologies</font></a></a>
                                       
-                       <!--<a href="http://www.anaphite.com/" class= "pull-left" id="anaText" onmouseover="onHover();" onmouseout="offHover();"><font id="anaColor" color="black">Anaphite Technologies</font></a></a>-->
-                       
-                       <!--<a id="homeButton"><a href="http://www.anaphite.com/" class= "pull-left"><img class="image_on" src="anaphitelogoblack.png" id="logoNav" alt="Home"  style="float: left; width:32px;height:32px;"><img class="image_off"  src="anaphitelogohover.png" id="logoNav" alt="Home"  style="float: left; width:32px;height:32px;"><a href="http://www.anaphite.com/" class= "pull-left" id="anaText">Anaphite Technologies</a></a></a>-->
                    </li>
                     <li id="navListElement2">
                         <a href="about.html" class= "pull-right" id="aboutButtonText" onmouseover="onHover2();" onmouseout="offHover2();"><font id="aboutButtonColor" color="white" size="4px">About</font></a></a>
@@ -248,22 +295,18 @@
         
                     </li>
                </ul>
-    		   <!--<a class="textNav" href="http://www.nujjltd.com/#OurProducts" style="text-decoration:none">Our Products</a>
-    		   <a class="textNav" href="http://www.nujjltd.com/#OurPeople" style="text-decoration:none">Our People</a>
-    		    <a class="textNav">Our Principles</a>
-    		    <a class="textNav">Contact Us</a>-->
     	   </nav>
         </header>
         <div class="jumbotron">
                 <h1>Team</h1>
                 <ul id="picList">
                     <li id="sam">
-                        <a href="http://www.linkedin.com/in/burrowsamuel"><img src="samTeam.png" alt="CEO" style="width:150px;height:150px;"></img></a>
+                        <a href="http://www.linkedin.com/in/burrowsamuel"><img id="samFade" src="samTeam.png" alt="CEO" style="width:150px;height:150px;" onmouseover="onHoverSamAlex(samFade);" onmouseout="offHoverSam();"></img></a>
                         <h3>Samuel Burrow</h3>
                         <h3>CEO</h3>
                     </li>
                     <li id="alex">
-                        <a href="https://www.linkedin.com/in/alexander-hewitt-757a468a"><img href="http://www.linkedin.com/in/alexander-hewitt" src="alexCircle.png" alt="CTO" style="width:150px;height:150px;"></img></a>
+                        <a href="https://www.linkedin.com/in/alexander-hewitt-757a468a"><img id="alexFade" src="alexCircle.png" alt="CTO" style="width:150px;height:150px;" onmouseover="onHoverSamAlex(alexFade);" onmouseout="offHoverAlex();"></img></a>
                         <h3>Alexander Hewitt</h3>
                         <h3>CTO</h3>
                     </li>
@@ -274,24 +317,6 @@
         <div id="footer">
             <h3 id="copyright">&#169 Anaphite Technologies 2016<font></h3>
         </div>
-        <!--<form id="contact_form" action="contact.php" method="POST" enctype="multipart/form-data">
-	        <div class="row">
-		         <label id= for="name">Your name:</label><br />
-		         <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-	       </div>
-	       <div class="row">
-		        <label for="email">Your email:</label><br />
-                <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-	       </div>
-	       <div class="row">
-		        <label for="message">Your message:</label><br/>
-		        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-            </div>
-	           <input id="submit_button" type="submit" value="Send"/>
-                <input type="reset" value="Clear"/>
-            <a href="#" onclick="document.getElementById('popup').style.display='none'; return false;">CLOSE</a>
-        </form>-->	
-
 <div id="contact_form"> 
     <button id="dimScreen" onclick="mailClose();contactOffHover1();" id="Close Button">
         <a href="#" onclick="mailClose();contactOffHover1();"><img id="closeButtonCross" src="closeButton.png" alt="Close" onmouseover="onHoverCross();" onmouseout="offHoverCross();"></img></a>
@@ -305,25 +330,8 @@
                         </a>
                         </li>
                     </ul>
-
-	        <!--<div class="row">
-		         <label class="labels" for="name">Your name:</label><br/><br/><br/>
-		         <input id="name" class="input" name="name" type="text" value="" size="50"/><br/>
-	       </div>
-	       <div class="row">
-		        <label class="labels" for="email">Your email:</label><br/><br/><br/>
-                <input id="email" class="input" name="email" type="text" value="" size="50" /><br/>
-	       </div>
-	       <div class="row">
-		        <label class="labels" for="message">Your message:</label><br/><br/><br/>
-		        <textarea id="message" class="input" name="message" rows="7" cols="50"></textarea><br/>
             </div>
-	           <input onclick="mailClose();contactOffHover1();" id="submit_button" type="submit" value="Send"/>
-                <input type="reset" value="Clear"/>
-            <a href="#" onclick="mailClose();contactOffHover1();" id="Close Button"><input type="button" value="Close"></input></a>
-                </div>-->
-            </div>
-</button>
+    </button>
 </div>
     </body>
 </html>
