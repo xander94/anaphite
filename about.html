@@ -228,55 +228,43 @@
             
         </script>
         <script>
-        function fade(element) {
+    function fade(element) {
     var op = 1;  // initial opacity  
     var timer = setInterval(function () {
         if (op <= 0.1){
             clearInterval(timer);
-            element.style.display = 'none';
+            //element.style.display = 'none';
         }
         element.style.opacity = op;
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op -= op * 0.1;
-    }, 50);
-          
-            
-}
-    </script>
-        <script>
-            function unfade(element) {
-    var op = 0.1;  // initial opacity
-    element.style.display = 'block';
-    var timer = setInterval(function () {
+    }, 10);
+    $(element).attr('src', 'linkedInRound.png');
+    op = 0.1;
+    var timer2 = setInterval(function () {
         if (op >= 1){
             clearInterval(timer);
         }
         element.style.opacity = op;
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op += op * 0.1;
-    }, 10);       
+    }, 10); 
+            
+}
+    </script>
+        <script>
+            function unfadeAlex(element) {
+
+    $(element).attr('src', 'alexCircle.png');
+
 }
         </script>
         <script>
-            function onHoverSamAlex(element)
-        {
-            
-            $(element).attr('src', 'linkedInRound.png');
-    //$("#anaText").fontcolor("dimgrey");
-        }
-
-        function offHoverAlex()
-        {
-            $("#alexFade").attr('src', 'alexCircle.png');
-   
-        }
-            function offHoverSam()
-        {
-            $("#samFade").attr('src', 'samTeam.png');
-
-        }
-        </script>
-        <script>
+            function unfadeSam(element) {
+    
+    $(element).attr('src', 'samTeam.png');
+  
+}
         </script>
     </head>
     <body>
@@ -301,12 +289,12 @@
                 <h1>Team</h1>
                 <ul id="picList">
                     <li id="sam">
-                        <a href="http://www.linkedin.com/in/burrowsamuel"><img id="samFade" src="samTeam.png" alt="CEO" style="width:150px;height:150px;" onmouseover="onHoverSamAlex(samFade);" onmouseout="offHoverSam();"></img></a>
+                        <a href="http://www.linkedin.com/in/burrowsamuel"><img id="samFade" src="samTeam.png" alt="CEO" style="width:150px;height:150px;" onmouseover="fade(samFade);" onmouseout="unfadeSam(samFade);"></img></a>
                         <h3>Samuel Burrow</h3>
                         <h3>CEO</h3>
                     </li>
                     <li id="alex">
-                        <a href="https://www.linkedin.com/in/alexander-hewitt-757a468a"><img id="alexFade" src="alexCircle.png" alt="CTO" style="width:150px;height:150px;" onmouseover="onHoverSamAlex(alexFade);" onmouseout="offHoverAlex();"></img></a>
+                        <a href="https://www.linkedin.com/in/alexander-hewitt-757a468a"><img id="alexFade" src="alexCircle.png" alt="CTO" style="width:150px;height:150px;" onmouseover="fade(alexFade);" onmouseout="unfadeAlex(alexFade);"></img></a>
                         <h3>Alexander Hewitt</h3>
                         <h3>CTO</h3>
                     </li>
