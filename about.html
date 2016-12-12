@@ -229,6 +229,7 @@
         </script>
         <script>
     function fade(element) {
+        if(window.screen.availWidth > 700){
     var op = 1;  // initial opacity  
     var timer = setInterval(function () {
         if (op <= 0.1){
@@ -251,19 +252,22 @@
     }, 10); 
             
 }
+    }
     </script>
         <script>
             function unfadeAlex(element) {
-
+if(window.screen.availWidth > 700){
     $(element).attr('src', 'alexCircle.png');
 
 }
+            }
         </script>
         <script>
+            if(window.screen.availWidth > 700){
             function unfadeSam(element) {
     
     $(element).attr('src', 'samTeam.png');
-  
+            }
 }
         </script>
     </head>
