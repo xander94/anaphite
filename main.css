@@ -359,9 +359,9 @@ img {
     width: 75px;
     height: 70px;
 }
-#solarLabel {        
-    margin-bottom: 10px;
-}
+    h4 {
+        font-size: 9px;
+    }
 #footer{
     margin-top: 0px;
     padding-top: 10px;
