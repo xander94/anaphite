@@ -342,7 +342,7 @@ img {
     margin-right: 5%;
     width: 75px;
     height: 70px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 #antiBac {
     display:inline-block;
