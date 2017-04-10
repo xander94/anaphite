@@ -281,6 +281,10 @@ img {
     max-width: 95%;
 }
 
+#sunImage {
+    border-radius: 2px;
+}
+
 @media screen and (max-device-width: 700px){
 #contactButtonText{
     padding-right: 0px;
@@ -328,21 +332,21 @@ img {
     display:inline-block;
     margin-left: 0%;
     margin-right: 5%;
-    width: 70px;
+    width: 80px;
     height: 70px;
 }
 #antiBac {
     display:inline-block;
     margin-left: 5%;
     margin-right: 5%;
-    width: 70px;
+    width: 80px;
     height: 70px;
 }
 #battery {
     display:inline-block;
     margin-left: 5%;
     margin-right: 0%;
-    width: 70px;
+    width: 80px;
     height: 70px;
 }
 #footer{
