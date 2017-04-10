@@ -72,7 +72,7 @@ body {
 
 #solar {
     display:inline-block;
-    margin-left: 5%;
+    margin-left: 0%;
     margin-right: 10%;
 }
 #antiBac {
@@ -83,7 +83,7 @@ body {
 #battery {
     display:inline-block;
     margin-left: 10%;
-    margin-right: 5%;
+    margin-right: 0%;
 }
 
 
