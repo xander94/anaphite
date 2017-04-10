@@ -389,11 +389,8 @@ img {
     padding: 0px;
     vertical-align: middle;
 }
-#solarLabel {
-    
-}
-#sunImage{
-    margin-bottom: 40px;
+#solarDiv{
+    margin-bottom: 20px;
 }
 #contactWords{
     padding-bottom: 0px;
