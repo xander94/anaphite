@@ -357,12 +357,6 @@ img {
     width: 75px;
     height: 70px;
 }
-    #solarLabel {
-        padding-bottom: 10px;
-    }
-    #sunImage{
-        padding-bottom: 10px;
-    }
 #footer{
     margin-top: 0px;
     padding-top: 10px;
@@ -394,6 +388,12 @@ img {
     padding-top: 0px
     padding: 0px;
     vertical-align: middle;
+}
+#solarLabel {
+    padding-bottom: 10px;
+}
+#sunImage{
+    padding-bottom: 10px;
 }
 #contactWords{
     padding-bottom: 0px;
