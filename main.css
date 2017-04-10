@@ -313,7 +313,7 @@ img {
     text-align: center;
     font-size: 16px;
     background-image: -webkit-linear-gradient(270deg,rgb(30,30,30) 0%,rgb(117,119,238) 100%);
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 100px;
@@ -326,22 +326,22 @@ img {
 }
 #solar {
     display:inline-block;
-    margin-left: 5%;
-    margin-right: 10%;
+    margin-left: 0%;
+    margin-right: 5%;
     width: 70px;
     height: 70px;
 }
 #antiBac {
     display:inline-block;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     width: 70px;
     height: 70px;
 }
 #battery {
     display:inline-block;
-    margin-left: 10%;
-    margin-right: 5%;
+    margin-left: 5%;
+    margin-right: 0%;
     width: 70px;
     height: 70px;
 }
