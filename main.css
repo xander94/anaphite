@@ -290,6 +290,7 @@ img {
 
 #sunImage {
     border-radius: 2px;
+    padding-bottom: 6px
 }
 
 
@@ -388,9 +389,6 @@ img {
     padding-top: 0px
     padding: 0px;
     vertical-align: middle;
-}
-#solarDiv{
-    
 }
 #contactWords{
     padding-bottom: 0px;
