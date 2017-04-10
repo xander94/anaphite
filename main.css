@@ -54,10 +54,36 @@ body {
     padding: 0px;
     vertical-align: middle;
 }
+
+#appsList{
+    width: 100%;
+    font-size: 20px;
+    height: 150px;
+    padding: 0px;
+    padding-top: 20px;
+    vertical-align: middle;
+}
+
 #mailClick, #linkedInClick, #facebookClick {
     display:inline-block;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#solar {
+    display:inline-block;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+#antiBac {
+    display:inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#battery {
+    display:inline-block;
+    margin-left: 10%;
+    margin-right: 5%;
 }
 
 
@@ -313,16 +339,7 @@ img {
     text-decoration: none;
 
 }
-    
-#contactList{
-    width: 100%;
-    font-size: 20px;
-    height: 100px;
-    margin-top: 0px;
-    padding-top: 0px
-    padding: 0px;
-    vertical-align: middle;
-}
+
 #contactWords{
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -339,9 +356,6 @@ img {
     
 }
     
-}
-
-
 #top .avia-content-slider, #top .avia-content-slider-inner, #top .avia-content-slider-inner .slide-entry-wrap { -webkit-perspective: none !important; }
 
 @-webkit-keyframes colorize {
