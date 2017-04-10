@@ -54,7 +54,6 @@ body {
     padding: 0px;
     vertical-align: middle;
 }
-
 #appsList{
     width: 100%;
     font-size: 20px;
@@ -63,7 +62,6 @@ body {
     padding-top: 20px;
     vertical-align: middle;
 }
-
 #mailClick, #linkedInClick, #facebookClick {
     display:inline-block;
     margin-left: 10px;
@@ -72,7 +70,7 @@ body {
 
 #solar {
     display:inline-block;
-    margin-left: 0%;
+    margin-left: 5%;
     margin-right: 10%;
 }
 #antiBac {
@@ -83,7 +81,7 @@ body {
 #battery {
     display:inline-block;
     margin-left: 10%;
-    margin-right: 0%;
+    margin-right: 5%;
 }
 
 
@@ -326,6 +324,27 @@ img {
     height: 70px;
     margin-bottom: 0px;
 }
+#solar {
+    display:inline-block;
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 70px;
+    height: 70px;
+}
+#antiBac {
+    display:inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 70px;
+    height: 70px;
+}
+#battery {
+    display:inline-block;
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 70px;
+    height: 70px;
+}
 #footer{
     margin-top: 0px;
     padding-top: 10px;
@@ -339,7 +358,25 @@ img {
     text-decoration: none;
 
 }
-
+    
+#contactList{
+    width: 100%;
+    font-size: 20px;
+    height: 100px;
+    margin-top: 0px;
+    padding-top: 0px
+    padding: 0px;
+    vertical-align: middle;
+}
+#appsList{
+    width: 100%;
+    font-size: 20px;
+    height: 100px;
+    margin-top: 0px;
+    padding-top: 0px
+    padding: 0px;
+    vertical-align: middle;
+}
 #contactWords{
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -356,6 +393,9 @@ img {
     
 }
     
+}
+
+
 #top .avia-content-slider, #top .avia-content-slider-inner, #top .avia-content-slider-inner .slide-entry-wrap { -webkit-perspective: none !important; }
 
 @-webkit-keyframes colorize {
