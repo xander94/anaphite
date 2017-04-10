@@ -332,21 +332,21 @@ img {
     display:inline-block;
     margin-left: 0%;
     margin-right: 5%;
-    width: 80px;
+    width: 75px;
     height: 70px;
 }
 #antiBac {
     display:inline-block;
     margin-left: 5%;
     margin-right: 5%;
-    width: 80px;
+    width: 75px;
     height: 70px;
 }
 #battery {
     display:inline-block;
     margin-left: 5%;
     margin-right: 0%;
-    width: 80px;
+    width: 75px;
     height: 70px;
 }
 #footer{
