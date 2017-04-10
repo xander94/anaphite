@@ -282,7 +282,7 @@ img {
 }
 
 @media screen and (max-device-width: 700px){
-    #contactButtonText{
+#contactButtonText{
     padding-right: 0px;
     margin-right: 20px;
     margin-top: 14px;
@@ -309,11 +309,11 @@ img {
     color: white;
     text-decoration: none;
 }
-    .jumbotron{
+.jumbotron{
     text-align: center;
     font-size: 16px;
     background-image: -webkit-linear-gradient(270deg,rgb(30,30,30) 0%,rgb(117,119,238) 100%);
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 100px;
