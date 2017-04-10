@@ -343,6 +343,7 @@ img {
     margin-right: 5%;
     width: 75px;
     height: 70px;
+    
 }
 #antiBac {
     display:inline-block;
@@ -357,6 +358,9 @@ img {
     margin-right: 0%;
     width: 75px;
     height: 70px;
+}
+#solarLabel {        
+    margin-bottom: 10px;
 }
 #footer{
     margin-top: 0px;
