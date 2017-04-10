@@ -341,7 +341,7 @@ img {
     margin-left: 0%;
     margin-right: 5%;
     width: 75px;
-    height: 70px;
+    height: 75px;
 }
 #antiBac {
     display:inline-block;
@@ -388,12 +388,6 @@ img {
     padding-top: 0px
     padding: 0px;
     vertical-align: middle;
-}
-#solarLabel {
-    
-}
-#sunImage{
-    margin-bottom: 70px;
 }
 #contactWords{
     padding-bottom: 0px;
