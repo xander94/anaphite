@@ -348,6 +348,7 @@ img {
 }
 #solar {
     display:inline-block;
+    position: absolute;
     margin-left: 0%;
     margin-right: 5%;
     width: 75px;
@@ -356,6 +357,7 @@ img {
 }
 #antiBac {
     display:inline-block;
+    position: absolute;
     margin-left: 5%;
     margin-right: 5%;
     width: 75px;
@@ -363,12 +365,15 @@ img {
 }
 #battery {
     display:inline-block;
+    position: absolute;
     margin-left: 5%;
     margin-right: 0%;
     width: 75px;
     height: 70px;
 }
-h4 {        font-size: 9px;
+h4 {        
+    font-size: 9px;
+    position: absolute;
 }
 #slogan {
     /*position: absolute;
