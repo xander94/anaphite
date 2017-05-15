@@ -219,6 +219,14 @@ h1, h2, h3, h5, h6 {
 h2 {
     margin-top: 20px;
 }
+#slogan {
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    bottom: 0;
+    transform: translate(-50%, -50%)
+
+}
 h4{
     color: #222;
     font-weight: 600;
