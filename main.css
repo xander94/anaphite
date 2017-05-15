@@ -371,13 +371,14 @@ img {
 h4 {        font-size: 9px;
 }
 #slogan {
-    position: absolute;
+    /*position: absolute;
     font-size: 12px;
     left: 50%;
     margin-right: -50%;
-    bottom: 0;
-    padding-top: 100px;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%)*/
+    position: static;
+    font-size: 12px;
+    padding-top: 50px
     
 
 }
