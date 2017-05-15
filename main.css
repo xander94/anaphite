@@ -220,11 +220,13 @@ h2 {
     margin-top: 20px;
 }
 #slogan {
-    position: static;
+    /*position: static;
     left: 50%;
     margin-right: -50%;
     bottom: 0;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%)*/
+    
+    padding-top: 40px;
 
 }
 h4{
@@ -370,11 +372,13 @@ img {
 h4 {        font-size: 9px;
 }
 #slogan {
-    position: absolute;
+    /*position: absolute;
     font-size: 12px;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%)*/
+    font-size: 12px;
+    padding-top: 40px
     
 
 }
