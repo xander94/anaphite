@@ -36,7 +36,6 @@ body {
 }*/
 #navBarList {
     text-align: right;
-    position: absolute;
     z-index: 1;
     width: 100%;
     margin-top: 0px;
@@ -378,12 +377,9 @@ h4 {        font-size: 9px;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)*/
-    position: static;
+    display:inline-block;
     font-size: 12px;
-    padding-top: 50px
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    margin: 0 auto;
     
     
 
