@@ -36,6 +36,8 @@ body {
 }*/
 #navBarList {
     text-align: right;
+    position: absolute;
+    z-index: 1;
     width: 100%;
     margin-top: 0px;
     height: 50px;
@@ -348,7 +350,6 @@ img {
 }
 #solar {
     display:inline-block;
-    position: absolute;
     margin-left: 0%;
     margin-right: 5%;
     width: 75px;
@@ -357,7 +358,6 @@ img {
 }
 #antiBac {
     display:inline-block;
-    position: absolute;
     margin-left: 5%;
     margin-right: 5%;
     width: 75px;
@@ -365,15 +365,12 @@ img {
 }
 #battery {
     display:inline-block;
-    position: absolute;
     margin-left: 5%;
     margin-right: 0%;
     width: 75px;
     height: 70px;
 }
-h4 {        
-    font-size: 9px;
-    position: absolute;
+h4 {        font-size: 9px;
 }
 #slogan {
     /*position: absolute;
@@ -384,6 +381,10 @@ h4 {
     position: static;
     font-size: 12px;
     padding-top: 50px
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
     
 
 }
