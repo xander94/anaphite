@@ -163,6 +163,7 @@ body {
     float: right;
 }
 .jumbotron{
+    position: relative;
     text-align: center;
     font-size: 16px;
     height: 100%;
@@ -173,6 +174,7 @@ body {
     padding-top: 90px;
 }
 .jumbotron2{
+    position: relative;
     text-align: center;
     font-size: 16px;
     background-color: white;
@@ -322,16 +324,6 @@ img {
     top: 0px;
     position: absolute;
     text-decoration: none;
-}
-.jumbotron{
-    text-align: center;
-    font-size: 16px;
-    height: auto;
-    background-image: -webkit-linear-gradient(270deg,rgb(30,30,30) 0%,rgb(117,119,238) 100%);
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 90px;
 }
 }
 
