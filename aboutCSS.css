@@ -342,14 +342,14 @@ img {
 #sloganAbout{
     position: absolute; 
     top:30%; 
-    left:15%; 
+    left:10%; 
     width:90%; 
     margin:0 auto;
 }
 #expAbout{
     position: absolute; 
     top:36%; 
-    left:15%;  
+    left:10%;  
     width:90%; 
     margin:0 auto;
 }
