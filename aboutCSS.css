@@ -339,6 +339,20 @@ img {
     position: absolute;
     text-decoration: none;
 }
+#sloganAbout{
+    position: absolute; 
+    top:30%; 
+    left:26%; 
+    width:90%; 
+    margin:0 auto;
+}
+#expAbout{
+    position: absolute; 
+    top:36%; 
+    left:26%;  
+    width:90%; 
+    margin:0 auto;
+}
 }
 
 #top .avia-content-slider, #top .avia-content-slider-inner, #top .avia-content-slider-inner .slide-entry-wrap { -webkit-perspective: none !important; }
