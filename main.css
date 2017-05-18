@@ -358,6 +358,7 @@ img {
 #navBarList {
     text-align: center;
     position: absolute;
+    display: block;
     z-index: 1;
     width: 100%;
     margin-top: 0px;
