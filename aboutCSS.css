@@ -41,7 +41,7 @@ body {
     background-color: rgba(10,10,10,0.2);
     
 }
-#anaColor{
+/*#anaColor{
     color="white";
     size="2px";
 }
@@ -52,7 +52,7 @@ body {
 #contactButtonColor{
     color="white";
     size="2px";
-}
+}*/
 #closeButtonCross{
     height: 30px;
     width: 30px;
@@ -381,7 +381,7 @@ img {
     width:80%; 
     margin:0 auto;
 }
-#anaColor{
+/*#anaColor{
     color="white";
     size="2px";
 }
@@ -392,7 +392,7 @@ img {
 #contactButtonColor{
     color="white";
     size="0.5px";
-}
+}*/
 }
 
 #top .avia-content-slider, #top .avia-content-slider-inner, #top .avia-content-slider-inner .slide-entry-wrap { -webkit-perspective: none !important; }
