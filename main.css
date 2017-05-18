@@ -111,7 +111,7 @@ body {
 
 #appsList{
     width: 100%;
-    margin-left: 1%;
+    margin-left: 0%;
     font-size: 20px;
     height: 150px;
     padding: 0px;
@@ -132,17 +132,20 @@ body {
 #solar {
     display:inline-block;
     margin-left: 0%;
-    margin-right: 10%;
+    margin-right: 8%;
+    width: 100px;
 }
 #antiBac {
     display:inline-block;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 100px;
 }
 #battery {
     display:inline-block;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-right: 0%;
+    width: 100px;
 }
 
 
@@ -442,23 +445,23 @@ img {
 #solar {
     display:inline-block;
     margin-left: 0%;
-    margin-right: 4%;
-    width: 75px;
+    margin-right: 5%;
+    width: 80px;
     height: 70px;
     
 }
 #antiBac {
     display:inline-block;
-    margin-left: 4%;
-    margin-right: 4%;
-    width: 75px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 80px;
     height: 70px;
 }
 #battery {
     display:inline-block;
-    margin-left: 4%;
+    margin-left: 5%;
     margin-right: 0%;
-    width: 75px;
+    width: 80px;
     height: 70px;
 }
 h4 {        
