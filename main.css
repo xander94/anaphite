@@ -430,24 +430,33 @@ img {
     height: 70px;
     margin-bottom: 0px;
 }
+#appsList{
+    width: 100%;
+    margin-left: 0%;
+    height: 100px;
+    margin-top: 0px;
+    padding-top: 0px
+    padding: 0px;
+    vertical-align: middle;
+}
 #solar {
     display:inline-block;
     margin-left: 0%;
-    margin-right: 5%;
+    margin-right: 4%;
     width: 75px;
     height: 70px;
     
 }
 #antiBac {
     display:inline-block;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
     width: 75px;
     height: 70px;
 }
 #battery {
     display:inline-block;
-    margin-left: 5%;
+    margin-left: 4%;
     margin-right: 0%;
     width: 75px;
     height: 70px;
@@ -493,15 +502,7 @@ h4 {
     padding: 0px;
     vertical-align: middle;
 }
-#appsList{
-    width: 100%;
-    margin-left: 0%;
-    height: 100px;
-    margin-top: 0px;
-    padding-top: 0px
-    padding: 0px;
-    vertical-align: middle;
-}
+
 #contactWords{
     padding-bottom: 0px;
     margin-bottom: 0px;
