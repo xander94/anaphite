@@ -184,17 +184,19 @@ body {
     padding-top: 40px;
 }
 #sloganAbout{
-    position: absolute; 
+    position: absolute;
+    font-size: 20px;
     top:35%; 
     left:30%; 
     width:40%; 
     margin:0 auto;
 }
 #expAbout{
+    font-size: 18px;
     position: absolute; 
     top:41%; 
-    left:30%;  
-    width:40%; 
+    left:25%;  
+    width:50%; 
     margin:0 auto;
 }
 h1, h2, h3, h4{
@@ -351,15 +353,18 @@ img {
     position: absolute;
     text-decoration: none;
 }
+
 #sloganAbout{
-    position: absolute; 
+    position: absolute;
+    font-size: 17px;
     top:30%; 
     left:10%; 
     width:80%; 
     margin:0 auto;
 }
 #expAbout{
-    position: absolute; 
+    position: absolute;
+    font-size: 17px;
     top:36%; 
     left:10%;  
     width:80%; 
