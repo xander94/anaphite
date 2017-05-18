@@ -41,7 +41,18 @@ body {
     background-color: rgba(10,10,10,0.2);
     
 }
-
+#anaColor{
+    color="white";
+    size="4px";
+}
+#aboutButtonColor{
+    color="white";
+    size="4px";
+}
+#contactButtonColor{
+    color="white";
+    size="4px";
+}
 #closeButtonCross{
     height: 30px;
     width: 30px;
@@ -364,11 +375,23 @@ img {
 }
 #expAbout{
     position: absolute;
-    font-size: 17px;
+    font-size: 16px;
     top:36%; 
     left:10%;  
     width:80%; 
     margin:0 auto;
+}
+#anaColor{
+    color="white";
+    size="2px";
+}
+#aboutButtonColor{
+    color="white";
+    size="2px";
+}
+#contactButtonColor{
+    color="white";
+    size="2px";
 }
 }
 

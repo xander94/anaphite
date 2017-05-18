@@ -56,6 +56,18 @@ body {
     background-color: rgba(10,10,10,0.2);
     
 }
+#anaColor{
+    color="white";
+    size="4px";
+}
+#aboutButtonColor{
+    color="white";
+    size="4px";
+}
+#contactButtonColor{
+    color="white";
+    size="4px";
+}
 #contactList{
     width: 100%;
     font-size: 20px;
@@ -464,6 +476,18 @@ h4 {
     position: absolute;
     text-decoration: none;
     
+}
+#anaColor{
+    color="white";
+    size="2px";
+}
+#aboutButtonColor{
+    color="white";
+    size="2px";
+}
+#contactButtonColor{
+    color="white";
+    size="2px";
 }
     
 }
