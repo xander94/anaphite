@@ -43,15 +43,15 @@ body {
 }
 #anaColor{
     color="white";
-    size="4px";
+    size="2px";
 }
 #aboutButtonColor{
     color="white";
-    size="4px";
+    size="2px";
 }
 #contactButtonColor{
     color="white";
-    size="4px";
+    size="2px";
 }
 #closeButtonCross{
     height: 30px;
@@ -387,11 +387,11 @@ img {
 }
 #aboutButtonColor{
     color="white";
-    size="2px";
+    size="0.5px";
 }
 #contactButtonColor{
     color="white";
-    size="2px";
+    size="0.5px";
 }
 }
 

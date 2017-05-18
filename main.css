@@ -58,15 +58,15 @@ body {
 }
 #anaColor{
     color="white";
-    size="4px";
+    size="2px";
 }
 #aboutButtonColor{
     color="white";
-    size="4px";
+    size="2px";
 }
 #contactButtonColor{
     color="white";
-    size="4px";
+    size="2px";
 }
 #contactList{
     width: 100%;
@@ -479,15 +479,15 @@ h4 {
 }
 #anaColor{
     color="white";
-    size="2px";
+    size="0.5px";
 }
 #aboutButtonColor{
     color="white";
-    size="2px";
+    size="0.5px";
 }
 #contactButtonColor{
     color="white";
-    size="2px";
+    size="0.5px";
 }
     
 }
