@@ -41,6 +41,23 @@ body {
     background-color: rgba(10,10,10,0.2);
     
 }
+#logoNav{
+    padding-top: 0px;
+    margin-top: 15px;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: 15px;
+    float:inherit;
+    line-height: 20px;
+} 
+#navListElement1 {
+    display:inline;
+    float: left;
+}
+#navListElement2 {
+    display:inline;
+    float: right;
+}
 /*#anaColor{
     color="white";
     size="2px";
@@ -156,23 +173,6 @@ body {
     color: dimgrey;
     text-decoration: none;
 }*/
-#logoNav{
-    padding-top: 0px;
-    margin-top: 15px;
-    margin-right: 0px;
-    padding-right: 0px;
-    margin-left: 15px;
-    float:inherit;
-    line-height: 20px;
-} 
-#navListElement1 {
-    display:inline;
-    float: left;
-}
-#navListElement2 {
-    display:inline;
-    float: right;
-}
 .jumbotron{
     position: relative;
     text-align: center;
