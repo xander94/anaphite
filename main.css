@@ -131,7 +131,7 @@ body {
 
 #solar {
     display:inline-block;
-    position: relative;
+    position: static;
     margin-left: 0%;
     margin-right: 8%;
     width: 100px;
@@ -139,14 +139,14 @@ body {
 }
 #antiBac {
     display:inline-block;
-    position: relative;
+    position: static;
     margin-left: 8%;
     margin-right: 8%;
     width: 100px;
 }
 #battery {
     display:inline-block;
-    position: relative;
+    position: static;
     margin-left: 8%;
     margin-right: 0%;
     width: 100px;
