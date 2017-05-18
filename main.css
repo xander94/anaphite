@@ -24,7 +24,7 @@ h1, h2, h3, h4{
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Yantramanav', sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 0px;
     color: lightgray;
     
@@ -55,6 +55,14 @@ body {
     position: fixed;
     background-color: rgba(10,10,10,0.2);
     
+}
+#anaphiteWord{
+    margin:0 auto;
+}
+#breakthrough{
+    margin:0 auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 /*#anaColor{
     color="white";
