@@ -230,8 +230,14 @@
         
         <script>
             function scrollToBottom(){
-                window.scrollTo(0,document.body.scrollHeight);
-            }
+              
+              window.scroll({
+                    top: 2500, 
+                    left: 0, 
+                    behavior: 'smooth' 
+              });
+                
+        }
         </script>>
         <script>
     function fade(element) {
