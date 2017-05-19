@@ -110,6 +110,7 @@ body {
     font-size: 15px;
     padding-bottom: 10px;
     text-decoration: none;
+    z-index: 3;
 }
 /*
 .image_off, #home:hover .image_on{
