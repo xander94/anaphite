@@ -142,7 +142,7 @@ body {
     position: static;
     margin-left: 8%;
     margin-right: 8%;
-    width: 100px;
+    width: 120px;
 }
 #battery {
     display:inline-block;
@@ -151,6 +151,7 @@ body {
     margin-right: 0%;
     width: 100px;
 }
+
 
 
 #contact_form{
