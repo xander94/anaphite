@@ -336,7 +336,12 @@ h4{
     top: 50%;
     left: 50%;
     transform: translate(-55%, -50%);
-    
+}
+#center2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .row{
     color: white;
@@ -528,6 +533,12 @@ h4 {
     position: absolute;
     text-decoration: none;
     
+}
+#center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /*#anaColor{
     color="white";

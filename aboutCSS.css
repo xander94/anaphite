@@ -394,6 +394,12 @@ img {
     width:80%; 
     margin:0 auto;
 }
+#center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /*#anaColor{
     color="white";
     size="2px";
