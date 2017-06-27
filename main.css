@@ -125,6 +125,7 @@ body {
     transform: translate(-50%, -50%);
     width: 60%;
     height: 60%;
+    z-index: 5;
 }
 #appsList{
     width: 100%;
@@ -181,6 +182,7 @@ body {
     top: 0px;
     position: absolute;
     text-decoration: none;
+    z-index: 6;
 }
 /*
 .image_off, #home:hover .image_on{
