@@ -236,6 +236,37 @@
             }
             
         </script>
+        <script>
+        function howVidPopUp(){
+            document.getElementById('howVideo').style.display='block';
+            document.getElementById('vid').style.display='block';
+            document.getElementById('dimScreen2').style.display='block';
+        }
+    </script>
+        <script>
+            function howVidClose(){
+               document.getElementById('howVideo').style.display='none';
+                document.getElementById('vid').style.display='none';
+                document.getElementById('dimScreen2').style.display='none'; 
+            }
+            
+        </script>
+        <script>
+        function learnMoreHoverOn()
+        {
+            if(window.screen.availWidth > 700){
+            $("#learnMoreButton").attr('src', 'learnMoreHover.png');
+            }
+    //$("#anaText").fontcolor("dimgrey");
+        }
+
+        function learnMoreHoverOff()
+        {
+            $("#learnMoreButton").attr('src', 'learnMore.png');
+            
+    //$("#anaText").fontcolor("black");
+        }
+    </script>
     </head>
     <body>
         <header>
@@ -271,7 +302,9 @@
                 <h2 id="breakthrough">A breakthrough nanomaterial.</h2>
                 <!--<img id="anaphiteLogo" src="anaphiteHazeSlight.png" alt="Logo" style="width:200px;height:184px;"></img>-->
                 <img id="anaphiteLogo" src="anaphitelogowhite.png" alt="Logo" style="width:200px;height:173px;"></img>
-            <h3>Coming soon</h3>
+            <!--<h3>Coming soon</h3>-->
+        <a href="#">
+            <img id="learnMoreButton" src="learnMore.png" alt="Learn more" onmouseover="learnMoreHoverOn();" onmouseout="learnMoreHoverOff();" onclick="howVidPopUp();" style="width:129px;height:46px;"></img></a>
             <!--<img src="/Users/alexanderhewitt/Google_Drive/anaphitelogowhite.png" width="100" height="80" alt="Logo">-->
                 <p>
             </p>
@@ -359,6 +392,14 @@
             <a href="#" onclick="mailClose();contactOffHover1();" id="Close Button"><input type="button" value="Close"></input></a>
                 </div>-->
             </div>
+</button>
+</div>
+<div id="howVideo"> 
+    <button id="dimScreen2" onclick="howVidClose();learnMoreHoverOff();">
+        <a href="#" onclick="howVidClose();learnMoreHoverOff();"><img id="closeButtonCross" src="closeButton.png" alt="Close" onmouseover="onHoverCross();" onmouseout="offHoverCross();"></img></a>
+    <div id="center">
+        <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/P5gCn69zPN4" frameborder="0" allowfullscreen></iframe>
+        </div>
 </button>
 </div>
 <div id="pictures">

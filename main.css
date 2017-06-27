@@ -108,7 +108,12 @@ body {
          -o-animation: fadein 1s; /* Opera < 12.1 */
             animation: fadein 1s;
 }
-
+#learnMoreButton {
+    margin-top: 40px;
+}
+#vid{
+    display: none;
+}
 #appsList{
     width: 100%;
     margin-left: 0%;
@@ -150,18 +155,6 @@ body {
     margin-left: 8%;
     margin-right: 0%;
     width: 100px;
-}
-
-
-
-#contact_form{
-    position:absolute;
-    display:none;
-    top:50px;
-    left:50px; /* you should change left and top */
-    width:200px;
-    height:200px;
-    z-index: 2;
 }
 #copyright{
     font-size: 15px;
@@ -303,7 +296,7 @@ h4{
 
 }
 
-#dimScreen
+#dimScreen, #dimScreen2
 {
     position:fixed;
     padding:0;
@@ -329,6 +322,14 @@ h4{
     display:none; /* you should change left and top */
     width:100%;
     height:100%;
+    z-index: 2;
+}
+#howVideo{
+    position:fixed;
+    display:none; /* you should change left and top */
+    width:100%;
+    height:100%;
+    z-index: 2;
 }
 #center{
     position: fixed;
