@@ -280,6 +280,14 @@ if(window.screen.availWidth > 700){
             }
 }
         </script>
+                <script>
+            function unfadeMerv(element) {
+                if(window.screen.availWidth > 700){
+        $(element).attr('src', 'mervCircle.png');
+
+                }
+            }
+        </script>
     </head>
     <body>
         <header>
@@ -325,6 +333,11 @@ if(window.screen.availWidth > 700){
                         <h3>Nathan Norris</h3>
                         <h3>Research Intern</h3>
                     </li>
+                    <li id="alex">
+                        <a href="https://www.linkedin.com/in/merv-miles-1413aaa/"><img id="mervFade" src="mervCircle.png" alt="Non-Exec" style="width:150px;height:150px;" onmouseover="fade(mervFade);" onmouseout="unfadeMerv(mervFade);"></img></a>
+                        <h3>Prof Merv Miles</h3>
+                        <h3>Non-Exec</h3>
+                    </li>  
                 </ul>
 
             <!--<img src="/Users/alexanderhewitt/Google_Drive/anaphitelogowhite.png" width="100" height="80" alt="Logo">-->
