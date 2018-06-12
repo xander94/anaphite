@@ -288,6 +288,14 @@ if(window.screen.availWidth > 700){
                 }
             }
         </script>
+        <script>
+            function unfadeWill(element) {
+                if(window.screen.availWidth > 700){
+        $(element).attr('src', 'willCircle.png');
+
+                }
+            }
+        </script>
     </head>
     <body>
         <header>
@@ -328,12 +336,12 @@ if(window.screen.availWidth > 700){
                         <h3>Alexander Hewitt</h3>
                         <h3>COO</h3>
                     </li>
-                    <li id="nathan">
-                        <img id="nathanFade" src="willCircle.png" alt="researchAssociate" style="width:150px;height:150px;"></img>
+                    <li id="will">
+                        <a href="https://www.linkedin.com/in/william-armstrong-0573b5166/"><img id="willFade" src="willCircle.png" alt="researchAssociate" style="width:150px;height:150px; " onmouseover="fade(willFade);" onmouseout="unfadeWill(willFade);"></img></a>
                         <h3>Will Armstrong</h3>
                         <h3>Research Intern</h3>
                     </li>
-                    <li id="alex">
+                    <li id="merv">
                         <a href="https://www.linkedin.com/in/merv-miles-1413aaa/"><img id="mervFade" src="mervCircle.png" alt="Non-Exec" style="width:150px;height:150px;" onmouseover="fade(mervFade);" onmouseout="unfadeMerv(mervFade);"></img></a>
                         <h3>Prof Merv Miles</h3>
                         <h3>Non-Exec</h3>
